@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 160px;
+}
+.para_1{
+    height: 300px;
+    width: 470px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    text-align: center;
+}
+#first_para{
+    text-align: center;
+    padding: 5px;
+}
+#second_para{
+    text-align: center;
+    color: #8d969f;
+    background-color:  rgb(238, 239, 242);
+    border-radius: 5px;
+    padding: 3px;
+}
+.para_3{
+    display: flex;
+    justify-content: center;  
+}
+.para{
+    height: 60px;
+    width: 50px;
+    margin: 3px;
+    color: rgb(120, 133, 144);
+    text-align: center;
+    font-size: 50px;
+    border: none;
+}
+.para:active{
+    border: 1px solid rgb(16, 2, 171);  
+    color: black;  
+    box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.75);
+}
